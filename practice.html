@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <title> practice</title>
+    </head>
+    <body bgcolor="yellow"  >
+
+
+<font face="TimesnewRoman"color="red" size="10px">Specifies that we're using HTML5 in this code. Before the introduction of HTML5, you had to explicitly state which
+version of HTML you were coding in</font> <b>with the<!Doctype> tag.</b><i> For example, HTML4.0, 3.2, and so on. But now we no longer need it. When “html” is written in the code,
+the browser automatically assumes that you are coding in HTML5.</i><u>the root, or top-level element of every HTML document. Every other element must be wrapped in it.
+ one of the most crucial parts of the HTML document.</u><bdo> Web crawlers look inside the head tags to get
+important information about the page.</dbo  dir="rtl"></p> It contains info such as the page title, stylesheets, meta information for SEO,
+and lots more. this is an empty element that conveys meta-information about the page. Such information may include the
+author, what type of encoding it's using (almost always UTF-8), responsiveness, compatibility, and a lot more. Web
+crawlers always look at the meta tag to get information about the web page, which will play a crucial role in SEO.
+ this defines the title of the web page.<h1 align="center" text="blue" >It is always shown in the browser tab. all the content of the HTML document is located inside the body tag. There can only be one tag on the whole page.</p>
+
+
+<table  border="3p" bordercolor="red" caption="student details" width="180px" bgcolor="aqua" align="center" cellpadding="10px" cellspacing="10x">
+<caption>student details</caption>
+    <tr>
+        <th rowspan="2">details</th>
+        <th> name</th>
+        <th> rno</th>
+        <th> marks</th>
+        <th> yop</th>
+    </tr>
+    <tr>
+        <td>swarna</td>
+        <td>19</td>
+        <td>90</td>
+        <td>80%</td>
+    </tr>
+</table>
+<h1>Links</h1>
+
+<a href="https://www.youtube.com/" target="_blank"> youtube</a>
+ <marquee direction="left",scrollamount="5" bgcolor="pink"  > By Swarna</marquee>
+ 
+ <form>
+    <label>  First Name</label> <input type="text" value="name" id="name"></input>
+    <label> First Name</label> <input type="text" value="name" id="name"></input>
+ </form><br><br>
+ <hr>
+ <form onreset="f1()" >
+   Enter  :<input type="text" id="ab"  > 
+   <input type="button" id="btn" value="button" >
+   <input type="reset" id="rst" value="Reset" >
+ </form>
+<p id="para"></p>
+ <script>
+    function f1()
+    {
+        var a=10;
+       var x=  document.getElementById("ab").value
+       if(x==a){
+       document.getElementById("para").innerHTML="eqaul"
+       }
+       else
+{
+    document.getElementById("para").innerHTML="not equal"
+}
+    }
+ </script>
+ <br><br>
+ <br>
+</fieldset>
+<h2>Tables </h2>
+<fieldset style="border-color: blue;background-color: blueviolet ;">
+
+    <div id="list">
+        <h2>Lists</h2>
+        <div>
+
+            <div id="table">
+                <table border="10" cellspacing="6" cellpadding="5" height="180px" width="180px" bgcolor="white">
+                    <caption>
+                        <h4> Student Details</h4>
+                    </caption>
+                    <tr>
+                        <th rowspan="2"> Details</th>
+                        <th> Name</th>
+                        <th> Rno</th>
+                        <th> marks</th>
+                        <th> percentage</th>
+                    </tr>
+                    <tr>
+
+                        <td>M.swarna</td>
+                        <td>19</td>
+                        <td> 100</td>
+                        <td> 95%</td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <div style="float:left ;">
+                <h4> unorderd list</h4>
+                <ul>
+                    <li> srija</li>
+                    <li> 20</li>
+                    <li> 95</li>
+                    <li><strike>90%</strike> 92%</li>
+                </ul>
+            </div>
+            <div style="float:right ;">
+                <h4> orderded Lists</h4>
+                <ol>
+                    <li>swarna</li>
+                    <li> 19</li>
+                    <li> 100</li>
+                    <li>95</li>
+                </ol>
+            </div>
+            <div style="float:left ;">
+                <h4> unorderd list</h4>
+                <ul>
+                    <li> srija</li>
+                    <li> 20</li>
+                    <li> 95</li>
+                    <li><strike>90%</strike> 92%</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</fieldset>
+    </body>
+</html>

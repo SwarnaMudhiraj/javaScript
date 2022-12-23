@@ -261,6 +261,13 @@ let filterout = arry1.filter((arry1) => arry1 % 2 === 0)
 console.log(filterout);
 
 
+
+
+
+
+
+
+
 //reduce the code it containts 2 argements 1...>current valueelement in an array and.....>oeration variable like sum,max,min etc
 let arry3 = [1, 2, 3, 4, 5, 6, 7, 8]
 let reduceout = arry3.reduce((maxnum, currentelement) => {
@@ -314,7 +321,7 @@ let fn2 = {
     
 fullname.call(fn ,"kpk","btech","girl");
 fullname.call(fn1, "kpk", "degree", "boy");
-fullname.apply(fn2, ["kpk", "iti", "boy"]);
+ fullname.apply(fn2, ["kpk", "iti", "boy"]);
 //bind
 let bindd = fullname.bind(fn, "kpk", "btech", "girl");//ths is not a variable its a function
 bindd();
